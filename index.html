@@ -11,14 +11,14 @@
         <br>
 
         <header>
-            <p>devCodeCamp HTML Worksheet</p>
+            <h1>devCodeCamp HTML Worksheet</h1>
         </header>
         
         <br>
 
         <main>
             <section>
-                <p>Section Overview</p>
+                <h2>Section Overview</h2>
 
                 <p>
                     This worksheet will help introduce you to some of the main concepts of HTML. You will learn:
@@ -84,7 +84,7 @@
 
             <section>
 
-                <p>Section 1 - Paragraphs and Headers</p>
+                <h2>Section 1 - Paragraphs and Headers</h2>
 
                 <p>
                     Most basic text you want to show up on a page should be enclosed with &lt;p&gt;&lt;/p&gt; tags, the "p" standing for "paragraph".
@@ -101,7 +101,7 @@
                 <p>
                     Hello world!
                 </p>
-                
+
                 <p>
                     Once we introduce CSS styling, you will have many more tools to change the size, color, font, and other aspects of your text. But there is a fast way to change your text just using HTML: Heading tags!
                 </p>
@@ -114,13 +114,13 @@
                     Alter the following lines to use their corresponding "h" tag. Remember that you will need to have the opening and closing tags match. Non-matching tags might lead to unpredicatable behavior by the browser.
                 </p>
 
-                <p>Heading 1</p>
-                <p>Heading 2</p>
-                <p>Heading 3</p>
-                <p>Heading 4</p>
-                <p>Heading 5</p>
-                <p>Heading 6</p>
-                <p>Paragraph</p>
+                <h1>Heading 1</h1>
+                <h2>Heading 2</h2>
+                <h3>Heading 3</u3>
+                <h4>Heading 4</h4>
+                <h5>Heading 5</h5>
+                <h6>Heading 6</h6>
+                <p>Paragraph</p >
 
                 <p>
                     Now that you've seen Heading tags in action, go back to the main heading at the start of the worksheet and change it to an h1 tag. Then, change all the section headings you come across to h2s.
@@ -135,9 +135,9 @@
 
             <section>
 
-                <p>Section 2 - Lists and Tables</p>
+                <h2>Section 2 - Lists and Tables</h2>
 
-                <p>Subsection a. - Lists</p>
+                <h3>Subsection a. - Lists</h3>
 
                 <p>Lists are a quick way to organize a sequence of items. There are two types of lists:</p>
 
@@ -162,13 +162,38 @@
                     Create your own Unordered List below this line, list out your 3 favorite movies.
                 </p>
 
+                <ul>
+                    <li>
+                        <p>Godfather</p>
+                    </li>
+                    <li>
+                        <p>Casino</p>
+                    </li>
+                    <li>
+                        <p>Goodfellas</p>
+                    </li>            
+                </ul>
+            
+
                 <p>
                     Ordered lists work just like Unordered lists, but they use a &lt;ol&gt; tag instead of &lt;ul&gt;. Change the Unordered List you just created into an Ordered List. The &lt;li&gt; tags can remain the same!
                 </p>
 
+                <ol>
+                    <li>
+                        <p>Godfather</p>
+                    </li>
+                    <li>
+                        <p>Casino</p>
+                    </li>
+                    <li>
+                        <p>Goodfellas</p>
+                    </li>            
+                </ol>
+
                 <br>
 
-                <p>Subsection b. - Tables</p>
+                <h3>Subsection b. - Tables</h3>
 
                 <p>
                     Tables are very similar in structur to lists. There is an opening and closing &lt;table&gt; tag, and inside, there are &lt;tr&gt; (table row) tags to designate the different rows. However, unlike lists, which only have a single item in each row, a table is also split into columns, which allows a row to contain multiple cells of data.
@@ -178,7 +203,7 @@
                     We split a single &lt;tr&gt; into its multiple columns using the &lt;td&gt; (table data) tag.
                 </p>
 
-                <table>
+                <table>                                      
                     <tr>
                         <td>Picard</td>
                         <td>Kenobi</td>
@@ -209,6 +234,25 @@
                     Add a Header row in the table above, labeling the left column "Star Trek" and the right column "Star Wars". Use the existing rows as guidance, but make sure to use the correct &lt;th&gt; tag.
                 </p>
 
+                <table>                                      
+                    <tr>
+                        <th>Star Trek</th>
+                        <th>Star Wars</th>
+                    </tr>
+                    <tr>
+                        <td>Picard</td>
+                        <td>Kenobi</td>
+                    </tr>
+                    <tr>
+                        <td>Riker</td>
+                        <td>Skywalker</td>
+                    </tr>
+                    <tr>
+                        <td>Crusher</td>
+                        <td>Organa</td>
+                    </tr>
+                </table>
+
                 <p>
                     You may also see some tables further organize their sections into &lt;thead&gt; tags to contain the &lt;th&gt; header rows and &lt;tbody&gt; to contain the regular &lt;td&gt; data rows, but this is not required.
                 </p>
@@ -223,7 +267,7 @@
             <br>
 
             <section>
-                <p>Section 3 - Attributes</p>
+                <h2>Section 3 - Attributes</h2>
 
                 <p>
                     Some tags require more information than just what type of tag it is. This "extra" information is supplied through <b>attributes</b>.
@@ -256,7 +300,7 @@
             <br>
 
             <section>
-                <p>Section 4 - Hyperlinks and Formatting</p>
+                <h2>Section 4 - Hyperlinks and Formatting</h2>
 
 
 
@@ -420,7 +464,7 @@
 
             <section>
 
-                <p>Section 5 - Images</p>
+                <h2>Section 5 - Images</h2>
 
                 <p>
                     Congratulations on making it this far! This plain text website must be very boring to stare at. Let's try to make it a little more exciting by adding an image.
@@ -456,7 +500,7 @@
 
             <section>
 
-                <p>Section 6 - Semantic Elements</p>
+                <h2>Section 6 - Semantic Elements</h2>
 
                 <p>
                     Up until now, we have mostly been using &lt;p&gt; tags to contain our content. The &lt;p&gt; tag is great for housing paragraph text, but as the design of our sites gets more complex, there is need for better ways to organize our content.
@@ -519,7 +563,7 @@
 
             <section>
 
-                <p>Section 7 - Inline vs Block</p>
+                <h2>Section 7 - Inline vs Block</h2>
 
                 <p>
                     The last thing we'll look at on this project is something that you may or may not have noticed yet.
@@ -566,7 +610,7 @@
                 Your final task for this sheet is to go back to Section Overview at the top of the page and turn it into a functional NavBar section. To accomplish this, you will need to add ids to the various sections throughout the document, and change the list items into links that will take you to them. That way, this sheet will serve as a handy reference when you build more websites! Also take a look at the available semantic elements and decide which one seems most appropriate for a NavBar, then wrap the whole NavBar in its own semantic element.
             </p>
 
-            <p>Happy Coding!</p>
+            <h2>Happy Coding!</h2>
 
             <br>
             <br>
